@@ -188,8 +188,18 @@ below is the example
 |2	|Jane Smith	|Los Angeles|	CA|
 |3	|Emily Davis|	San Francisco|	CA|
 
-        SCD 1: we maintain latest snapshot and we dont maintain any history.
+        SCD 1: we maintain latest snapshot of the data by writing the new data and we dont maintain any history.
+
+Below is the example 
+
+| CustomerID	 | Name	        | City	       |State|
+|-------------|--------------|-------------|------|
+| 1	          | John Doe     | 	Chicago    |	IL|
+| 2           | 	Jane Smith  | Los Angeles | 	CA      |
+| 3	          | Emily Davis	 | San Francisco	 |CA|
+
         SCD 2: if there is any change in the data source system it will be as latest but it will updated in another row in data warehouse with date anf flag column keeping all the history.
+Below is the example for SCD2
 
 |CustomerID	|Name	|City	|State	|StartDate|	EndDate|	IsCurrent
 |------------|-----------------|------------|------|-------|-------|------|
