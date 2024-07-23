@@ -135,3 +135,11 @@ Data base Terminologies:
     - Key 
         
         - A key is an entity or an entity instances particular set of properties that uniquely identify it. for data intergrity and effecctive data retrieval, keys are necessary. To ensure that each student has a distinct identification, the student ID, for instance may act as the primary key in the student object.
+
+    - Table
+        
+        - A relational database systems core structure for organizing data into rows and columns is a table. each table is made up of columns(attributes)  and rows(records), and it represnts a single entity. for instance a table called students may have columns for student data such as students ID nmae and mjor.
+    
+    - Primary Key:
+    
+        - A primary key is a way for a table to be uniquely identified. it guatantees that each row in the table can be identified individually. A single column or a group of columns might server as the primary key. The Student ID column for instance may server as a primary key in th estudents database.
