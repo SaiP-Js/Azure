@@ -122,24 +122,9 @@ Instructor
 
     - the table which must be in 4NF cannot be describable as the logical result of joining some other tables together.
 
-
-
-
-
-
-
-
-
-
-
-    
-
-1NF, 2NF, 3rdNF
-DBMS
-primary 
-grain 
-foreign 
-storage
+Data base Terminologies:
+    - Entity  
+        - An Entity is a specific real world thing or idea that we wish to represent and keep data about. for instance, students, professors, courses and department might all be considered entities in a university database.
 
     
     
