@@ -151,3 +151,20 @@ Data base Terminologies:
     - Relational Database:
     
         - It is kind of database system that arranges information into tables and uses keys to create relationships between those tables. Ii created a systamatic and effective method of managing data by adhering to the fundamentals of the relational model. Most popular relational datbase systems include PostgresSQL, Oracle, MySQL.
+
+    - Query:
+    
+        - Requesting data or information from a database is known as a query.
+
+    - Index:
+
+        - A darabase tables index is a type of data structure that accelerated data retrival process.
+
+    - Normalization:
+        
+        - Normalization is the process of arranging data in a daabase to reduce duplication and strengthen data integrity. It entails breaking down tables and crating connectiosn between them.
+
+
+    - ACID:
+
+        - Atomicity, Consistency, Isolation, and Durability or simply ACID are charactersitcs that gurantee the dependability and integrity of databse transactions. A transactions is always seens as a single peice of work.
