@@ -179,8 +179,17 @@ Slowly changing Dimensions:
 
 Standard SCD's
 
-        SCD 0: if there is achange in the source system, we dont chnage them in the data ware house. (no Change)
+        SCD 0: if there is a change in the source system, we dont chnage them in the data ware house. (no Change)
+below is the example 
+|------------|-----------------|------------|------|
+|CustomerID	|Name	|City	|State|
+|------------|-----------------|------------|------|
+|1	|John Doe	|New York	|NY|
+|2	|Jane Smith	|Los Angeles|	CA|
+|3	|Emily Davis|	San Francisco|	CA|
+
         SCD 1: we maintain latest snapshot and we dont maintain any history.
-        SCD 2: if there is any change in the data source system, 
+        SCD 2: if there is any change in the data source system it will be as latest but it will updated in another row in data warehouse with date anf flag column.
+
 
     
