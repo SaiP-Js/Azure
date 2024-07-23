@@ -98,9 +98,9 @@ Normalization:
 
 | CourseID	  | InstructorID  |
 |------------|---------------|
-|101	|1
-|102	|2
-|103	|1
+|101	|1|
+|102	|2|
+|103	|1|
 
 Table 2: 
 
@@ -164,7 +164,23 @@ Data base Terminologies:
         
         - Normalization is the process of arranging data in a daabase to reduce duplication and strengthen data integrity. It entails breaking down tables and crating connectiosn between them.
 
-
     - ACID:
 
         - Atomicity, Consistency, Isolation, and Durability or simply ACID are charactersitcs that gurantee the dependability and integrity of databse transactions. A transactions is always seens as a single peice of work.
+
+    - Surrogate key:
+        - 
+Slowly changing Dimensions:
+
+        - there are three primary types of SCD's 
+        - Star Schema 
+            - we have facts and dimensions. 
+        these are Dimensions that change over time and they dont have fixed part.
+
+Standard SCD's
+
+        SCD 0: if there is achange in the source system, we dont chnage them in the data ware house. (no Change)
+        SCD 1: we maintain latest snapshot and we dont maintain any history.
+        SCD 2: if there is any change in the data source system, 
+
+    
