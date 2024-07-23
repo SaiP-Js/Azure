@@ -22,3 +22,76 @@ Azure Synapse analytics bring best of the below components together as single se
     Pipelines for data integration and ETL/ELT(ADF).
 Synapse SQL:
 	
+#How to create Azure Synapse Analytics workspace.
+    portal.azure.com to login and create the Dl.
+    Synapse analytics can also login via web.azuresynapse.net and then navigate to the right synapse account and load it.
+Basic concepts of Azure Synapse Analytics:
+    - Synapse Workspace:
+        - Is a collaboration place where we can perform cloud based enterprise analytics in azure.
+        - Single workspace where all the data engineers and data scientists work as well.
+        - It will be associated with ADLS gen2 and file system.
+        - perform analytics with sql and apache spark.
+        - Resource available for SQL and Spark analytics are organized into sql and Spark pools.
+    - Linked Services:
+        - It is a connection strings where synapse analytics can work with external storage account.
+    - Synapse SQL :
+        - Ability to run tSQL 
+    - Apache Spark for Synapse :
+    - Pipelines
+
+Normalization:
+    - it is easier to understand. 
+    - it is enhanced and extend.
+    — protect from 
+        - inserting anomalies.
+        - update anomalies.
+        - deletion anomalies.
+1st normal form
+    - using row order to convey information is not permitted
+    - Mixing data types within the same column is not permitted.
+    - Having a table without a primary key is not permitted.
+    - repeating groups are not permitted.
+2nd Normal form.
+    — partial dependency is not permitted. ex: if a table is made up with a composite key 
+(primary key made up of more than one column) non non key attributes should depend on just a part of this composite key.
+below is the example of 2NF as it ha two tables with one table having composite primary key as (courseID and IInstructor ID)
+and other table has Instructor ID as a primary key 
+
+| CourseID	  | InstructorID  |
+|------------|---------------|
+|101	|1
+|102	|2
+|103	|1
+Table 2: 
+Instructor
+
+|InstructorID	| InstructorName	 |Department|
+|------------|-----------------|------------|
+|1	| Dr. Smith       |	Math|
+|2| 	Dr. Jones      |	Physics|
+
+3rd NF:
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+1NF, 2NF, 3rdNF
+DBMS
+primary 
+grain 
+foreign 
+storage
+
+    
+    
+
