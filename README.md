@@ -124,9 +124,9 @@ Instructor
 
 Data base Terminologies:
     
-- Entity  
+    - Entity  
         
-  - An Entity is a specific real world thing or idea that we wish to represent and keep data about. for instance, students, professors, courses and department might all be considered entities in a university database.
+        - An Entity is a specific real world thing or idea that we wish to represent and keep data about. for instance, students, professors, courses and department might all be considered entities in a university database.
 
     
     
