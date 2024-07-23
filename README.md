@@ -70,8 +70,11 @@ Instructor
 |1	| Dr. Smith       |	Math|
 |2| 	Dr. Jones      |	Physics|
 
-3rd NF:
-
+3rd NF: also called as boyce-codd normal form:
+every attribute in a table should depend on the key, the whole key and noting but the key.
+4NF: Multivalued dependencies in a table must be multivalued dependencies on the key.
+5th Normal form
+the table which must be in 4NF cannot be describable as the logical result of joining some other tables together.
 
 
 
