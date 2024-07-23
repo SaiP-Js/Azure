@@ -143,3 +143,11 @@ Data base Terminologies:
     - Primary Key:
     
         - A primary key is a way for a table to be uniquely identified. it guatantees that each row in the table can be identified individually. A single column or a group of columns might server as the primary key. The Student ID column for instance may server as a primary key in th estudents database.
+    
+    - Foreign Key:
+        
+        - A column or a group of columns in one database taht relates to the primary key in another table is known as a foreign key. as it creates connections between those tables. 
+    
+    - Relational Database:
+    
+        - It is kind of database system that arranges information into tables and uses keys to create relationships between those tables. Ii created a systamatic and effective method of managing data by adhering to the fundamentals of the relational model. Most popular relational datbase systems include PostgresSQL, Oracle, MySQL.
