@@ -41,28 +41,43 @@ Basic concepts of Azure Synapse Analytics:
 
 Normalization:
     - it is easier to understand. 
+
     - it is enhanced and extend.
+
     — protect from 
+
         - inserting anomalies.
+
         - update anomalies.
+
         - deletion anomalies.
+
 1st normal form
+
     - using row order to convey information is not permitted
+
     - Mixing data types within the same column is not permitted.
+
     - Having a table without a primary key is not permitted.
+
     - repeating groups are not permitted.
+
 2nd Normal form.
+
     — partial dependency is not permitted. ex: if a table is made up with a composite key 
+
 (primary key made up of more than one column) non non key attributes should depend on just a part of this composite key.
-below is the example of 2NF as it ha two tables with one table having composite primary key as (courseID and IInstructor ID)
-and other table has Instructor ID as a primary key 
+
+below is the example of 2NF as it ha two tables with one table having composite primary key as (courseID and IInstructor ID) and other table has Instructor ID as a primary key 
 
 | CourseID	  | InstructorID  |
 |------------|---------------|
 |101	|1
 |102	|2
 |103	|1
+
 Table 2: 
+
 Instructor
 
 |InstructorID	| InstructorName	 |Department|
@@ -71,11 +86,13 @@ Instructor
 |2| 	Dr. Jones      |	Physics|
 
 3rd NF: also called as boyce-codd normal form:
+
 every attribute in a table should depend on the key, the whole key and noting but the key.
 
 4NF: Multivalued dependencies in a table must be multivalued dependencies on the key.
 
 5th Normal form
+
 the table which must be in 4NF cannot be describable as the logical result of joining some other tables together.
 
 
