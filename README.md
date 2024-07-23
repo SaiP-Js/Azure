@@ -189,7 +189,12 @@ below is the example
 |3	|Emily Davis|	San Francisco|	CA|
 
         SCD 1: we maintain latest snapshot and we dont maintain any history.
-        SCD 2: if there is any change in the data source system it will be as latest but it will updated in another row in data warehouse with date anf flag column.
+        SCD 2: if there is any change in the data source system it will be as latest but it will updated in another row in data warehouse with date anf flag column keeping all the history.
 
+|CustomerID	|Name	|City	|State	|StartDate|	EndDate|	IsCurrent
+|------------|-----------------|------------|------|-------|-------|------|
+|1	|John Doe	|New York|	NY	|2021-01-01|	9999-12-31|	Yes|
+|2	|Jane Smith	|Los Angeles|	CA	|2021-01-01|	9999-12-31|	Yes|
+|3	|Emily Davis|	San Francisco|	CA|	2021-01-01|	9999-12-31	|Yes|
 
     
