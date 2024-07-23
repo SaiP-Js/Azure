@@ -64,11 +64,10 @@ Normalization:
 
 2nd Normal form.
 
-    — partial dependency is not permitted. ex: if a table is made up with a composite key 
+    - partial dependency is not permitted. ex: if a table is made up with a composite key 
 
-(primary key made up of more than one column) non non key attributes should depend on just a part of this composite key.
-
-below is the example of 2NF as it ha two tables with one table having composite primary key as (courseID and IInstructor ID) and other table has Instructor ID as a primary key 
+    - (primary key made up of more than one column) non non key attributes should depend on just a part of this composite key.
+    - below is the example of 2NF as it ha two tables with one table having composite primary key as (courseID and IInstructor ID) and other table has Instructor ID as a primary key 
 
 | CourseID	  | InstructorID  |
 |------------|---------------|
@@ -87,13 +86,14 @@ Instructor
 
 3rd NF: also called as boyce-codd normal form:
 
-every attribute in a table should depend on the key, the whole key and noting but the key.
+    - every attribute in a table should depend on the key, the whole key and noting but the key.
 
-4NF: Multivalued dependencies in a table must be multivalued dependencies on the key.
+4NF: 
+    - Multivalued dependencies in a table must be multivalued dependencies on the key.
 
 5th Normal form
 
-the table which must be in 4NF cannot be describable as the logical result of joining some other tables together.
+    - the table which must be in 4NF cannot be describable as the logical result of joining some other tables together.
 
 
 
