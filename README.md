@@ -181,7 +181,7 @@ Standard SCD's
 
         SCD 0: if there is a change in the source system, we dont chnage them in the data ware house. (no Change)
 below is the example 
-|------------|-----------------|------------|------|
+
 |CustomerID	|Name	|City	|State|
 |------------|-----------------|------------|------|
 |1	|John Doe	|New York	|NY|
