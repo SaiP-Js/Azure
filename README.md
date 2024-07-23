@@ -1,7 +1,7 @@
 
 ## Azure Synapse analytics:
 
-Azure it is one of the analytical service it will be brought data warehouse analytics and big data to one stop.
+Azure it is one of the analytical services it will be brought in data warehouse analytics and big data to one stop.
 
 ADF-- is a service to perform etl operations using ETL pipelines
 
@@ -19,7 +19,7 @@ from SQL DW we take it and use those for data visualization using power BI etc.,
 
 Azure Synapse analytics has the deep integration with Power BI, Cosmos DB and Azure ML.
 
- ![Azure Architecture](Azure_SynapseAnalytics.png?raw-true)
+ ![AZURE_ARCHITECTURE](Images/Azure_SynapseAnalytics.png)
 
 Azure Synapse is a limit less analytics service that brings together enterprise data warehousing and big data analytics It gives you the freedom to query 
 data on your terms using either serverless or dedicated resources -- at scale.
