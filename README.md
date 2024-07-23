@@ -128,6 +128,10 @@ Data base Terminologies:
         
         - An Entity is a specific real world thing or idea that we wish to represent and keep data about. for instance, students, professors, courses and department might all be considered entities in a university database.
 
+    - Attribute
+        
+        - An attribute is a represnetation of a particular quality or trait of an entity. it outlines the information about the entity that we wish to store. A student entity, for instance may include  characteristic like a student ID, name, date of birth and major.
     
-    
-
+    - Key 
+        
+        - A key is an entity or an entity instances particular set of properties that uniquely identify it. for data intergrity and effecctive data retrieval, keys are necessary. To ensure that each student has a distinct identification, the student ID, for instance may act as the primary key in the student object.
