@@ -214,11 +214,15 @@ SCD 3: used
 ####Data Modelling 
 
     - Understanding Non St4ructure, semi and structured data.
+
         - data Sources:
+
             data will be received from Mobile devices, POS , internet etccc.,
 
 
+
 Structure data:: this data is in tabular format.
+
                 - it has the relationship berween rows and columns.
 
                 -- it depends on data model existence.
