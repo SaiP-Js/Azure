@@ -220,86 +220,191 @@ SCD 3: used
 
 Structure data:: this data is in tabular format.
                 - it has the relationship berween rows and columns.
+
                 -- it depends on data model existence.
+
                     — relation database and excel files are the examples.
+
 non: it is largely grown in recent years
+
         no predefined model.
+
         not organized in a pre-defined manner
+
         large growth recently.
+
         audio and video files are example 
+
 semi : it doesn't come with and predefined data model.
+
         but it still some structure kind fo dtructure.
+
         self describing structure 
-like tags, markers 
+
+like tags, markers
 
 Azure Synapse Analytics
+
     - it is an umbrella of highly integrated multiple Azure data services.
+
     - unified analytics service that brings together data integration, enterprise data warehousing and big data analytics
+
     - Storage --> Data lake Gen2 
+
             - Handles all types of data.
+
             - Faster datra discovery and exploration.
+
             - use open file formats.
+
             - cost effective.
+
         - ONe Data Lake Gent mounted by default.
+
         - Attache multiple Storeage accounts.
+
         - Build in storage explorer 
+
         - use data lake common data model.
+
     - compute -- Dedicated sql pools, serverless SQL , apache spark pools
+
         - Dedicated sql pools 
+
             - Sql database based on MPP 
+
             - build reliable data models using T-sql 
+
             - pre provisioned compute.
+
             - it is running we need to pay for it, whether it is used or not.
+
         - Apache Spark pools
+
             - open source in memory engine for distributed data processing.
+
             - supports variety of use cases batch, streaming, ML analytics
+
             - pre provisioned cluster.
+
     - ingestion -- Synapse pipelines, mapping data flows.
+
             - do code free transformations
+
             - pre provisioned spark cluster.
+
             - Handles all types of data.
+
             - Shares code base with Azure data factory.
+
             - copy data from variety of sources.
+
             - orchestrate end to end pipelines.
+
             - ingest and transform daa code free.
+
     - Serverless pools
+
             - Federated queries using Tsql 
+
             - explore data or build logical warehouse.
+
             - pay for amount of data processed.
+
     - Platform -- Monitoring, management and security.
+
     - connected services -- Azure cosmos DB, power BI, Azure ML
+
             - Reduced ETL 
+
             - Faster data discovery and exploration.
+
             - Azure Cosmos DB 
+
                 - query data directly without etl
+
             -Azure ml 
+
                 - Integration with Azure cognitive services.
+
                 - Build & Consume ML models inside workspace.
+
             - Power BI 
+
                 - Build reports with integrated power BI Workspace
 
 What is Data lake house:
+
     - it tends to bring the data ware house and data lakes together.
+
     - stores data in open file formats.
+
     - keeps historical data in native raw format.
+
     - scalable and inexpensive.
+
     -Enables for ML and data science.
+
 Cons:
+
     data governance and reliablity.
+
     access control 
+
     not suiltable for BI tools.
+
     it can bring from different sources..
+
     Managing multiple copies for data ware house and data lakes.
+
 tools for Data lake house:
+
     Databricks
+
     Snowflakes
+
     AWS redshift 
+
     Azure Synapse analytics.
 
-    
 
 
-    
+Let's Create Your First ER Diagram on Draw.io
+Getting Started with Draw.io
+
+Open a new diagram: When you log in to Draw.io, you'll see a blank canvas.
+
+Choose the right shapes: Look for the shapes library. You'll find standard shapes for entities (rectangles), attributes (ovals), and relationships (diamonds or lines).
+
+Create entities: Drag and drop entity shapes onto the canvas. Rename them to match your library system entities (Book, Member, Loan).
+
+Add attributes: Add oval shapes to represent attributes for each entity. For example, for the Book entity, you might have attributes like Book ID, Title, Author, etc.
+
+Establish relationships: Use lines or diamonds to represent relationships between entities. For instance, a line between Book and Member with a diamond in the middle could represent a Loan.
+
+Example: Library System ER Diagram
+
+
+Entities:
+
+Book
+
+Member
+
+Loan
+
+Attributes:
+
+Book: Book ID, Title, Author, ISBN, Publication Date, Publisher, Genre, Number of Copies
+
+Member: Member ID, Name, Address, Phone Number, Membership Type, Membership Expiration Date
+
+Loan: Loan ID, Book ID (foreign key), Member ID (foreign key), Checkout Date, Due Date, Return Date
+
+here is the PDF that i have completed 
+
+![LIBRARY_ER_DIAGRAM](Images/LIbraryER.pdf)
+
 
 
     
