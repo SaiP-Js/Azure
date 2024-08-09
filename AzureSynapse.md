@@ -74,7 +74,29 @@ Azure Synapse Data Explorer, a component aof azure Synapse Analytics, is a data 
 
 ## 7. Integrating with other Azure data services
 
+Azure Synapse Analytics Seamlessly integrates with various Azure data services to deliver end to end analytics solutions.
+These integrations include:
 
+### 1. Azure Synapse link:
+
+Enables near real time synchronization between operational data in Azure Cosmos DB, Azure SQL Database, SQL Server,
+and Microsoft power platform Data verse, and analytical Data storage that can queries in Azure Synapse Analytics.
+
+### 2. Microsoft Power BI Integration:
+
+Allows data analyst to integrate a power BI workspace into a synapse workspace and perform interactive data visualization within Azure Synapse Studio.
+
+### 3. Microsoft Purview integration: 
+
+Enables organization to catalog data assets in Azure Synapse Analytics making it easier for data engineers to discover data assets and track data lineage when implementing data pipelines that ingest data into azure Synapse analytics.
+
+### 4.Azure Machine Learning integration: 
+
+Empowers data analysts and data scientists
+to incorporate predictive model training and consumption directly into analytics solutions.
+
+These integrations enhance the capabilities of azure synapse analytics,
+providing a comprehensive and effective platform for data analysis and insights.
 
 
 
