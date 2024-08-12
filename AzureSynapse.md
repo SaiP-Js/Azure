@@ -90,7 +90,7 @@ Allows data analyst to integrate a power BI workspace into a synapse workspace a
 
 Enables organization to catalog data assets in Azure Synapse Analytics making it easier for data engineers to discover data assets and track data lineage when implementing data pipelines that ingest data into azure Synapse analytics.
 
-### 4.Azure Machine Learning integration: 
+### 4. Azure Machine Learning integration: 
 
 Empowers data analysts and data scientists
 to incorporate predictive model training and consumption directly into analytics solutions.
