@@ -173,4 +173,4 @@ enabling predictive analytics and providing efficient data pipelines.
 In summary,
 Azure Synapse Analytics is a powerful tool
 that streamlines data analytics by bringing multiple services together into a single platform.
-This allows you to focus on analyzing data and gaining insights without the hassle of managing complex setups.
+This allows us to focus on analyzing data and gaining insights without the hassle of managing complex setups.
