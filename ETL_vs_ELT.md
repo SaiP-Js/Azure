@@ -18,7 +18,7 @@ ETL in 3 Steps
 
 On the other hand, ELT (Extract, Load, Transform) is a more recent approach where raw data is directly transferred to the data warehouse, and transformations occur within the warehouse itself, bypassing the need for intermediary staging processes.
 
-![Analysis](Images/elt_extract_load_transform.avif)
+![Analysis](Images/elt_extract_load_transform.png)
 
 
 ETL vs. ELT
