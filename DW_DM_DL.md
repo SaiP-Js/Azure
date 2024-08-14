@@ -93,7 +93,7 @@ The focused nature of a data mart simplifies management and enhances performance
 
 While data warehouses provide valuable insights, their large scale and complexity can lead to slower query performance, especially when handling very large datasets and complex queries across multiple data sources. Performance tuning and advanced data processing technologies are often needed to maintain speed and efficiency.
 
-### Cost
+## Cost
 
 ## Data Mart: 
 
