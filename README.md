@@ -106,10 +106,10 @@ Table 2:
 
 Instructor
 
-|InstructorID	| InstructorName	 |Department|
-|------------|-----------------|------------|
-|1	| Dr. Smith       |	Math|
-|2| 	Dr. Jones      |	Physics|
+| InstructorID	 | InstructorName	 | Department |
+|---------------|-----------------|------------|
+| 1	            | Dr. Smith       | 	Math      |
+| 2             | 	Dr. Jones      | 	Physics   |
 
 3rd NF: also called as boyce-codd normal form:
 
@@ -201,11 +201,11 @@ Below is the example
         SCD 2: if there is any change in the data source system it will be as latest but it will updated in another row in data warehouse with date anf flag column keeping all the history.
 Below is the example for SCD2
 
-|CustomerID	|Name	|City	|State	|StartDate|	EndDate|	IsCurrent
-|------------|-----------------|------------|------|-------|-------|------|
-|1	|John Doe	|New York|	NY	|2021-01-01|	9999-12-31|	Yes|
-|2	|Jane Smith	|Los Angeles|	CA	|2021-01-01|	9999-12-31|	Yes|
-|3	|Emily Davis|	San Francisco|	CA|	2021-01-01|	9999-12-31	|Yes|
+| CustomerID	 | Name	       | City	          | State	 | StartDate   | 	EndDate     | 	IsCurrent |
+|-------------|-------------|----------------|--------|-------------|--------------|------------|
+| 1	          | John Doe	   | New York       | 	NY	   | 2021-01-01  | 	9999-12-31  | 	Yes       |
+| 2	          | Jane Smith	 | Los Angeles    | 	CA	   | 2021-01-01  | 	9999-12-31  | 	Yes       |
+| 3	          | Emily Davis | 	San Francisco | 	CA    | 	2021-01-01 | 	9999-12-31	 | Yes        |
 
 SCD 3: used 
 
