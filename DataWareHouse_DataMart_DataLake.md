@@ -238,18 +238,18 @@ Data lakes are highly adaptable storage solutions that can handle vast amounts o
 
 Here's a comparison table that highlights the key differences between a data warehouse, data mart, and data lake across various dimensions:
 
-Feature | Data Warehouse | Data Mart | Data Lake
---- | --- | --- | ---
-Purpose | Centralized repository for enterprise-wide data | Focused subset of data for specific uses | Storage for raw data in its native format
-Scope | Organization-wide | Departmental or specific business area | Extremely large-scale, diverse data
-Data Types | Structured | Structured | Structured, semi-structured, unstructured
-Schema | Defined during data entry (schema-on-write) | Defined during data entry (schema-on-write) | Defined at the time of use (schema-on-read)
-Storage Format | Highly organized, relational databases | Highly organized, relational databases | File or object storage, less organized
-Use Cases | Business intelligence, reporting, data mining | In-depth, specialized departmental analysis | Big data processing, real-time analytics
-Query Performance | Optimized for complex queries | Optimized for specific queries | Requires processing for optimized queries
-Scalability | Scalable but with complexity and cost | Less scalable, focused scope | Highly scalable, capable of handling petabytes of data
-Cost | High initial investment and maintenance | Lower cost due to focused scope | Cost-effective at scale
-Implementation Time | Longer due to complexity and scale | Faster due to limited scope | Variable, depending on specific use cases
+| Feature             | Data Warehouse                                  | Data Mart                                   | Data Lake                                              |
+|---------------------|-------------------------------------------------|---------------------------------------------|--------------------------------------------------------|
+| Purpose             | Centralized repository for enterprise-wide data | Focused subset of data for specific uses    | Storage for raw data in its native format              |
+| Scope               | Organization-wide                               | Departmental or specific business area      | Extremely large-scale, diverse data                    |
+| Data Types          | Structured                                      | Structured                                  | Structured, semi-structured, unstructured              |
+| Schema              | Defined during data entry (schema-on-write)     | Defined during data entry (schema-on-write) | Defined at the time of use (schema-on-read)            |
+| Storage Format      | Highly organized, relational databases          | Highly organized, relational databases      | File or object storage, less organized                 |
+| Use Cases           | Business intelligence, reporting, data mining   | In-depth, specialized departmental analysis | Big data processing, real-time analytics               |
+| Query Performance   | Optimized for complex queries                   | Optimized for specific queries              | Requires processing for optimized queries              |
+| Scalability         | Scalable but with complexity and cost           | Less scalable, focused scope                | Highly scalable, capable of handling petabytes of data |
+| Cost                | High initial investment and maintenance         | Lower cost due to focused scope             | Cost-effective at scale                                |
+| Implementation Time | Longer due to complexity and scale              | Faster due to limited scope                 | Variable, depending on specific use cases              |
 
 The above table highlights the core differences between these three data storage systems, guiding organizations in choosing the right solution for their specific data management needs.
 
