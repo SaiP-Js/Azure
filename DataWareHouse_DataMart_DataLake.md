@@ -45,6 +45,7 @@ Tools Used Include business intelligence software, query tools and applications 
 
 # Data ware House architecture.
 ![](Images/DatawareHouse.png)
+
 Architecture source [from](https://www.altexsoft.com/blog/enterprise-data-warehouse-concepts/)
 
 In essence, a data warehouse collects data from various sources, cleans and organizes it, and then stores itr in a way that is easy to access and analyze. This structured approach helps businesses make informed decisions based on their data
@@ -204,6 +205,7 @@ Choosing between a data lake and a data warehouse depends on your specific needs
 A data lake is a system built to store a vast array of data types. Here’s a simplified overview of its architecture:
 
 ![](Images/DataLake.png)
+
 Architecture source [from](https://www.altexsoft.com/blog/data-lake-architecture/)
 
 ### **Data Ingestion Layer**
