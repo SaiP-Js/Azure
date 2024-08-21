@@ -12,13 +12,18 @@ A Data Lake is a storage repository where data is kept in its raw, original form
  
 ## Hadoop Compatible access: 
 
-Data Lake Storage is helpful because it allows you to interact with your data as if it's stored in the hadoop distributed files system(HDFS). This Enables you to keep all your data in one centralized location while using tools like Azure Databricks, Azure HHDInsight and Azure Synapse Analytics without needing to move the data. Additionally, you can use the parquet storage format which is space efficient and comfortable across different systems. Essential. It provides a convenient and seamless way to store and work with your data.
+Data Lake Storage is helpful because it allows us to interact with our data as if it's stored in the hadoop distributed files system(HDFS). This Enables us to keep all our data in one centralized location while using tools like Azure Databricks, Azure HHDInsight and Azure Synapse Analytics without needing to move the data. Additionally, you can use the parquet storage format which is space efficient and comfortable across different systems. Essential. It provides a convenient and seamless way to store and work with your data.
 
 Security: Data lake Storage offers robust security features, including Support for access control lists (ACL's) and POSIX permission. These security settings can be configured using technologies like HIve and Spark, ot through tools such as Azure Storage Explorer.
 
-Performance: Azure Data Lake Storage arranges your data using directories and subdirectories similar to a traditional file system. This structured hierarchy makes it easier to locate and manage data reducing computational overhead and saving both time and costs.
+Performance: Azure Data Lake Storage arranges our data using directories and subdirectories similar to a traditional file system. This structured hierarchy makes it easier to locate and manage data reducing computational overhead and saving both time and costs.
 
-Data Redundancy: data lake Storage employs replication models to ensure data redundancy. Safeguarding your information. With locally redundant storage(LRS), your Data is copied within a single data center, protecting against localized failures. For greater protecting, Geo-redundant storage (GRS) replicates your data to a secondary region, ensuring approximately even in the event of a disaster or outage in the primary region.
+Data Redundancy: data lake Storage employs replication models to ensure data redundancy.
+Safeguarding our information.
+With locally redundant storage(LRS), our Data is copied within a single data center,
+protecting against localized failures.
+For greater protecting, Geo-redundant storage (GRS) replicates our data to a secondary region,
+ensuring approximately even in the event of a disaster or outage in the primary region.
 
 # How to enable Azure Data Lake Storage.
 
@@ -27,7 +32,7 @@ To activate azure data lake stage Gen2, select the enabled hierarchical namespac
 
 For step-by-step guidance, see [Create a storage account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=azure-portal).
 
-As you create the account, make sure to select the options described in this article.
+As we create the account, make sure to select the options described in this article.
 
 Choose a storage account type.
 
@@ -52,7 +57,10 @@ To create a premium block blob account, select premium. Then in the premium acco
 
 ![Premium Account](Images/Premium_account.png)
 
-if you already the Azure Storage account and want to enable the Azure data lake storage Gen 2 capabilities, you can use the data lake Gen2 upgrade wizard available on the Azure portal page for your storage account resource. this wizard will guide you through the process of upgrading your existing storage account to include Azure Data lake Storage Gen features.
+if we already have the Azure Storage account and want to enable the Azure data lake storage Gen 2 capabilities,
+we can use the data lake Gen2 upgrade wizard available on the Azure portal page for our storage account resource.
+this wizard will guide us through the process
+of upgrading our existing storage account to include Azure Data lake Storage Gen features.
 
 
 ![Data Lake Gen2 upgrade](Images/Gen2_upgrade.png)
@@ -71,12 +79,12 @@ offering better performance for storage and retrieval in analytics tasks compare
 which also helps reduce analysis costs.
 
 In summary, if our goal is to store data without the need for analysis,
-or if you are archiving data you can disable the hierarchical namespace option
+or if we are archiving data, we can disable the hierarchical namespace option
 and set up the storage account as a standard azure blob storage account.
 This approach is useful for storing 
 items like website assets, including images and media  or any data that doesn't require analysis.
 On the other hand,
-if we are planning to perform analytics on the data you should enable the hierarchical namespace option
+if we are planning to perform analytics on the data we should enable the hierarchical namespace option
 to configure the storage account as an azure data lake storage Gen2 account.
 Azure Data Lake Storage Gen2 integrated seamlessly with the Azure Storage platform, allowing 
 application
@@ -90,9 +98,9 @@ In this article, we have delved into Azure Data Lake Storage Gen2, Covering ever
 leverage the capacities of Azure data Lake Storage Gen2.
 
 By recognizing the advantages of Azure Data Lake Storage Gen2,
-such as its seamless integration with compute technologies and its support for an efficient storage mechanism, you can now make well-informed decisions
+such as its seamless integration with compute technologies and its support for an efficient storage mechanism, we can now make well-informed decisions
 about managing and analyzing large datasets.
 
-i hope this article has offered valuable insights and information.
+I hope this article has offered valuable insights and information.
 we invite you to share your thoughts and experiences in the comments below.
-your feedback is highly values as we continue to provide informative and useful content.
+your feedback is highly valued as we continue to provide informative and useful content.
