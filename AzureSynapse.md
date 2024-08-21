@@ -42,7 +42,7 @@ Once our synapse analytics workspace is set up, we can use a synapse studio a we
 
 ## 2. Working with files in a data lake
 
-In a synapse analytics workspace, one key resource is the data lake that allows you to store and process data files at scale. By default, the workspace comes with a data lake like to an Azure data lake storage Gen2 container. You can also add linked services for additional data lakes on different storage platforms as needed.
+In a synapse analytics workspace, one key resource is the [data lake](https://medium.com/@saipujari6/data-warehouse-vs-data-mart-vs-data-lake-understanding-architecture-and-use-cases-440a28cdf629) that allows you to store and process data files at scale. By default, the workspace comes with a data lake like to an Azure data lake storage Gen2 container. You can also add linked services for additional data lakes on different storage platforms as needed.
 
 
 ## 3. Ingesting and transforming data with pipelines
