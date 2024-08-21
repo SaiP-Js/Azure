@@ -69,6 +69,7 @@ organized into directories.
 This structure improves the efficiency of operations like renaming and deleting directories,
 offering better performance for storage and retrieval in analytics tasks compared to flat namespaces,
 which also helps reduce analysis costs.
+
 In summary, if our goal is to store data without the need for analysis,
 or if you are archiving data you can disable the hierarchical namespace option
 and set up the storage account as a standard azure blob storage account.
