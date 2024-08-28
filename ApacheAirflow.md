@@ -52,7 +52,7 @@ Imagine a scenario where you need to coordinate a workflow that involves extract
 
 -- below are the required imports for this 
 
-`from airflow import DAG // to define the workflow from DAG 
+` from airflow import DAG // to define the workflow from DAG 
 from airflow.operators.python_operator import PythonOperator // to run Python functions as tasks
 from datetime import datetime, time delta //module to manage time and date 
 
@@ -105,5 +105,5 @@ dag=dag,
 )
 
 below is the sequence that tasks will be executed as of this DAG.
-task1 >> task2 >> task3`
+task1 >> task2 >> task3 `
 
