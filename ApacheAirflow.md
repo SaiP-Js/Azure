@@ -50,9 +50,10 @@ Airflow provides a comprehensive web interface for monitoring workflow execution
 Imagine a scenario where you need to coordinate a workflow that involves extracting data from an API, processing the data and then storing the results in a database. Using Airflow, you can define this entire process as a DAG:
 
 
--- below are the required imports for this 
 
-``` from airflow import DAG // to define the workflow from DAG 
+``` 
+-- below are the required imports for this 
+from airflow import DAG // to define the workflow from DAG 
 from airflow.operators.python_operator import PythonOperator // to run Python functions as tasks
 from datetime import datetime, time delta //module to manage time and date 
 
@@ -105,5 +106,71 @@ dag=dag,
 )
 
 below is the sequence that tasks will be executed as of this DAG.
-task1 >> task2 >> task3 ```
+task1 >> task2 >> task3 ``` 
+
+
+``` Below is the real time example for an Airflow
+
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+from airflow.operator.dummy_operator import DummyOperator
+from datetime import datetime,timedelta 
+import requests
+import pandas as pd 
+from sqlalchemy import create_engine
+
+default_args = {
+'owner': 'airflow,' 
+'depends_on_past': False, 
+'email_on_failure': False,
+'retries': 1, 
+'retry_delay': time delta(minutes=5), 
+}
+
+def extract_data(): 
+    data={'name':['sai','alice',bob','random','vijay','vijaya'],'age':['32','23','32','44','31','45','28']}
+    df= pd.DataFrame(data)
+    df.to_csv('C:\Users\karpu\OneDrive\Desktop\data\data.csv', index=false)
+
+def process_data(): 
+    df= pd.read_csv('C:\Users\karpu\OneDrive\Desktop\data\data.csv', index=false)
+    df['processed'] = True
+    df.to_csv('C:\Users\karpu\OneDrive\Desktop\data\processed_data.csv', index=false)
+
+def load_data(): 
+    df = pd.read_csv('C:\Users\karpu\OneDrive\Desktop\data\processed_data.csv', index=false)
+    df.to_csv('C:\Users\karpu\OneDrive\Desktop\data\final_data.csv', index =false)
+    
+// Defining the tasks
+
+start=DummyOperator(
+task_id='start',
+dag = dag,
+)
+
+extract=PythonOperator(
+task_id = 'extract_id',
+python_callable=extract_data,
+dag=dag,
+)
+
+transform=PythonOperator(
+task_id='transform_data'
+python_callable=processed_data,
+dag=dag,
+)
+
+load=PythonOperator(
+task_id='load_data'
+python_callable=load_data,
+dag=dag,
+)
+
+end=DummyOperator(
+task_id='end'
+dag=dag,
+)
+
+start >> extract >> transform >> load>> end ```
+In the Above example, Airflow manages the workflow ensuring that tasks execuet in the proper order while handling retries and dependencies.
 
